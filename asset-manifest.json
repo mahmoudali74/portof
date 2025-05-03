@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portof/static/css/main.e6c13ad2.css",
+    "main.js": "/portof/static/js/main.1754c5f5.js",
+    "index.html": "/portof/index.html",
+    "main.e6c13ad2.css.map": "/portof/static/css/main.e6c13ad2.css.map",
+    "main.1754c5f5.js.map": "/portof/static/js/main.1754c5f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.1754c5f5.js"
+  ]
+}
