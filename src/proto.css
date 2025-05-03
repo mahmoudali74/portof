@@ -456,3 +456,110 @@ footer p:hover {
 .animate-fade-in-down {
   animation: fadeInDown 0.3s ease-out;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+body.light-mode .bg-gray-900 {
+  background-color: #ffffff;
+}
+
+body.light-mode .text-white {
+  color: #333;
+}
+
+body.light-mode .text-gray-300 {
+  color: #555;
+}
+
+body.light-mode .text-gray-400 {
+  color: #777;
+}
+
+body.light-mode .bg-gray-800 {
+  background-color: #e0e0e0;
+}
+
+body.light-mode .border-gray-600 {
+  border-color: #ccc;
+}
+
+body.light-mode .nav-header {
+  background-color: #ffffff;
+}
+
+body.light-mode .nav-link {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+body.light-mode .nav-link:hover {
+  background-color: #d0d0d0;
+}
+
+body.light-mode .animate-gradient-bg {
+  background: linear-gradient(45deg, #f0f0f0, #e0e0e0, #d0d0d0, #e0e0e0, #f0f0f0);
+}
+
+body.light-mode .project-card,
+body.light-mode .skill-card,
+body.light-mode .testimonial {
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .text-yellow-500 {
+  color: #d97706;
+}
+
+body.light-mode .border-yellow-500 {
+  border-color: #d97706;
+}
+
+.animate-gradient-bg {
+  background: linear-gradient(45deg, #1a1a2e, #2a2a40, #3a3a50, #4a4a60, #1a1a2e);
+  background-size: 400% 400%;
+  animation: waveGradientBG 10s ease infinite;
+}
+
+@keyframes waveGradientBG {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-header .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-header .container .flex {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+}
