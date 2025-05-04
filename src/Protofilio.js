@@ -171,7 +171,7 @@ const Portfolio = () => {
             <a href="https://www.linkedin.com/in/mahmoud-ali-49673b262" className="text-gray-400 hover:text-yellow-500 text-xl icon-animated">
               <i className="fab fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com/genoo778" className="text-gray-400 hover:text-yellow-500 text-xl icon-animated">
+            <a href="https://github.com/mahmoudali74" className="text-gray-400 hover:text-yellow-500 text-xl icon-animated">
               <i className="fab fa-github"></i>
             </a>
           </div>
@@ -223,15 +223,16 @@ const Portfolio = () => {
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Health Monitoring Website</h5>
               <p className="text-gray-400 text-xs sm:text-sm">02/2025 - 05/2025</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">A web application to monitor health metrics.</p>
-              <button className="mt-2 bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
-                More
-              </button>
+              <a href="https://github.com/mahmoudali74/Health-care-website" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+                View Project
+              </a>
+
             </div>
             <div className="project-card bg-gray-800 rounded-lg p-4 shadow-md card-animated" data-aos="zoom-in">
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Elzhraa Helwan University Student Reservation</h5>
               <p className="text-gray-400 text-xs sm:text-sm">11/2023 - 06/2024</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">A reservation system for students at Elzhraa Helwan University, streamlining booking processes.</p>
-              <a href="https://github.com/genoo778/Elzhraa_Projectt" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+              <a href="https://github.com/mahmoudali74/Elzhraa-reversation-" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
                 View Project
               </a>
             </div>
@@ -239,15 +240,15 @@ const Portfolio = () => {
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Realtime Restaurant Booking System using React</h5>
               <p className="text-gray-400 text-xs sm:text-sm">01/2023 - 03/2023</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">A real-time booking system for restaurants, built with React for seamless user interaction.</p>
-              <button className="mt-2 bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
-                More
-              </button>
+              <a href="https://github.com/mahmoudali74/Real-Time-Cinema-Seats-panel-main-master" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+                View Project
+              </a>
             </div>
             <div className="project-card bg-gray-800 rounded-lg p-4 shadow-md card-animated" data-aos="zoom-in">
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">E-commerce React Project</h5>
               <p className="text-gray-400 text-xs sm:text-sm">02/2022 - 04/2022</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">An e-commerce platform built with React, featuring product listings, cart, and checkout functionality.</p>
-              <a href="https://github.com/genoo778/E-commarce-React-Project" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+              <a href="https://github.com/mahmoudali74/Ecommarce-website-" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
                 View Project
               </a>
             </div>
@@ -255,7 +256,7 @@ const Portfolio = () => {
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Realtime Cinema Booking System with React</h5>
               <p className="text-gray-400 text-xs sm:text-sm">01/2021 - 03/2021</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">A cinema seat booking system with real-time updates, developed using React.</p>
-              <a href="https://github.com/genoo778/Real-Time-Cinema-Seats-panel-main" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+              <a href="https://github.com/mahmoudali74/Real-Time-Cinema-Seats-panel-main-master" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
                 View Project
               </a>
             </div>
@@ -263,7 +264,15 @@ const Portfolio = () => {
               <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Front_SW_Proj_with_React - Various React Projects</h5>
               <p className="text-gray-400 text-xs sm:text-sm">01/2020 - 03/2020</p>
               <p className="text-gray-300 text-xs sm:text-sm mt-2">A collection of front-end projects built with React, showcasing various functionalities.</p>
-              <a href="https://github.com/genoo778/Front_SW_Proj_with_React.git" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+              <a href="https://github.com/mahmoudali74/Front_SW_Proj_with_React-main" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
+                View Project
+              </a>
+            </div>
+            <div className="project-card bg-gray-800 rounded-lg p-4 shadow-md card-animated" data-aos="zoom-in">
+              <h5 className="text-sm sm:text-lg text-bold-animated font-semibold text-white">Manual Watches Website</h5>
+              <p className="text-gray-400 text-xs sm:text-sm">04/2024 - Present</p>
+              <p className="text-gray-300 text-xs sm:text-sm mt-2">A stylish landing page for a manual watches brand using HTML, CSS, and JavaScript.</p>
+              <a href="https://github.com/mahmoudali74/Manual-watches-website" target="_blank" rel="noopener noreferrer" className="mt-2 inline-block bg-yellow-500 text-gray-900 font-semibold py-1 px-3 rounded btn-animated text-xs sm:text-sm">
                 View Project
               </a>
             </div>
